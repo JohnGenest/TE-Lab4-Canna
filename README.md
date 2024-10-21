@@ -1,1 +1,1 @@
-# TE-Lab4-Canna
+# TE-Lab4-CannaCuration
