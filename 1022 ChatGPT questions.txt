@@ -1,0 +1,147 @@
+For your app that recommends cannabis strains based on user responses to 10 questions, we'll need to consider aspects like the user's desired experience, tolerance level, consumption method, and any potential medical or recreational goals. I'll break this down into 10 effective questions, and then create an algorithm to match user responses with appropriate strains.
+
+10 Questions for Cannabis Recommendation:
+What is your primary reason for using cannabis?
+
+(A) Relaxation
+(B) Pain relief
+(C) Creativity boost
+(D) Improve sleep
+(E) Social interaction
+(F) Focus and productivity
+What time of day do you plan to consume cannabis?
+
+(A) Morning
+(B) Afternoon
+(C) Evening
+(D) Night
+How experienced are you with cannabis?
+
+(A) First time user
+(B) Occasional user
+(C) Regular user
+(D) Daily user
+What intensity of effects are you seeking?
+
+(A) Very mild
+(B) Mild
+(C) Moderate
+(D) Strong
+(E) Very strong
+Which method of consumption do you prefer?
+
+(A) Smoking
+(B) Vaping
+(C) Edibles
+(D) Oils/Tinctures
+(E) Topicals
+Do you prefer the cannabis strain to be:
+
+(A) Sativa-dominant (energizing, uplifting)
+(B) Indica-dominant (relaxing, calming)
+(C) Hybrid (balanced effects)
+What type of flavor or aroma do you prefer?
+
+(A) Earthy
+(B) Citrus/Fruity
+(C) Sweet
+(D) Spicy/Herbal
+(E) Pungent/Skunky
+Do you have a specific condition you'd like cannabis to help with?
+
+(A) Anxiety
+(B) Chronic pain
+(C) Insomnia
+(D) Depression
+(E) Lack of appetite
+(F) None
+How important is it for the strain to have a high THC content?
+
+(A) Not important
+(B) Somewhat important
+(C) Very important
+Do you want a strain with high CBD content?
+
+(A) Yes
+(B) No
+(C) Doesn't matter
+Algorithm to Recommend Cannabis Strains:
+Let’s consider that we have 5 popular strains to recommend. Each strain will have attributes such as effects (e.g., relaxation, focus, creativity), THC/CBD content, flavor profiles, and ideal consumption time. Here are the top 5 strains we might use as an example:
+
+Blue Dream (Hybrid - Sativa-dominant): Uplifting, good for focus/creativity, moderate THC, fruity flavors.
+Girl Scout Cookies (GSC) (Hybrid - Indica-dominant): Relaxation, euphoria, high THC, sweet/earthy flavors.
+Granddaddy Purple (Indica): Sleep aid, pain relief, high THC, strong sedative effects, fruity/earthy.
+Sour Diesel (Sativa): Energizing, uplifting, focus, high THC, citrus/pungent.
+Harlequin (Hybrid - High CBD): Medical relief (pain, anxiety), low THC, high CBD, earthy/herbal flavors.
+Algorithm Steps:
+Categorize the answers into effects, consumption preferences, THC/CBD levels, and time of consumption.
+
+Assign weight to each question based on its importance to the recommendation process:
+
+Reason for use (Q1) - High weight (30%)
+Time of day (Q2) - Medium weight (10%)
+Experience level (Q3) - Low weight (5%)
+Desired intensity (Q4) - Medium weight (10%)
+Method of consumption (Q5) - Medium weight (10%)
+Strain type (Sativa/Indica/Hybrid) (Q6) - High weight (15%)
+Flavor preferences (Q7) - Low weight (5%)
+Specific condition (Q8) - Medium weight (10%)
+THC preference (Q9) - Medium weight (5%)
+CBD preference (Q10) - Medium weight (5%)
+Score each strain based on the user’s answers. Here’s how we can assign points:
+
+Reason for use (Q1): Match the strain’s primary effects to the user's choice (e.g., pain relief → Granddaddy Purple or GSC, creativity → Blue Dream).
+
+Perfect match: +30 points
+Partial match: +15 points
+Time of day (Q2): Align strain effects with consumption time (e.g., relaxing strains for evening/night, energizing strains for morning/afternoon).
+
+Perfect match: +10 points
+Partial match: +5 points
+Experience level (Q3): Strong strains (high THC) for more experienced users, mild strains or balanced THC/CBD for beginners.
+
+Match: +5 points
+Desired intensity (Q4): Match the user’s intensity preference with the strength of the strain’s effects.
+
+Perfect match: +10 points
+Partial match: +5 points
+Consumption method (Q5): Recommend strains that are known to work well with the user’s preferred method (e.g., strains with terpene profiles suited for edibles).
+
+Match: +10 points
+Strain type preference (Q6): Match the user’s preference for Sativa, Indica, or Hybrid.
+
+Match: +15 points
+Partial match: +7 points
+Flavor/aroma (Q7): Check if the strain’s flavor profile matches the user’s preference.
+
+Match: +5 points
+Specific condition (Q8): Recommend strains that are known to help with conditions like anxiety, pain, etc.
+
+Perfect match: +10 points
+Partial match: +5 points
+THC preference (Q9): Match the user’s preference for THC strength.
+
+Match: +5 points
+CBD preference (Q10): Recommend strains with high CBD if specified.
+
+Match: +5 points
+Total the scores for each strain and recommend the strain with the highest score. For example:
+
+Blue Dream might score high for someone seeking creativity and focus with a moderate intensity, fruity flavors, and daytime consumption.
+Granddaddy Purple could score high for someone who needs pain relief, strong effects, and nighttime relaxation.
+Example Scoring Calculation:
+Let’s say the user answered:
+
+Reason for use: Pain relief → Granddaddy Purple and GSC get +30 points
+Time of day: Night → Granddaddy Purple +10 points, GSC +5 points
+Experience level: Regular user → All strong strains +5 points
+Intensity: Strong → Granddaddy Purple +10 points
+Consumption method: Edibles → GSC +10 points
+Strain type: Indica → Granddaddy Purple +15 points
+Flavor: Fruity → Granddaddy Purple +5 points
+Condition: Chronic pain → Granddaddy Purple +10 points
+THC preference: Very important → Granddaddy Purple and GSC +5 points
+CBD preference: No → No points for Harlequin
+For this user, Granddaddy Purple would likely have the highest score and be the top recommendation.
+
+This structure allows for fine-tuning based on specific user preferences while keeping the system flexible.
