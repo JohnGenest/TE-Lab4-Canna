@@ -1,0 +1,78 @@
+[
+    {
+        "username": "sampleUser",
+        "password": "hashedPasswordHere"
+    },
+    {
+        "username": "test",
+        "password": "$2y$10$R6SHipQafeo9oDwTZt3f0OxUxQV4.xI4GQrBcx17j.Q2UmDfM8FIW"
+    },
+    {
+        "username": "testy",
+        "password": "$2y$10$6tdr8VfFKPR3a1Zf5tBcz.nVvw79tqpywbhFkzjrLL14FB\/SNRFM6"
+    },
+    {
+        "username": "julius",
+        "password": "$2y$10$rrwWtr1eIlIun8njvzQHue7AxNlmpOGjY0qNRCytJ7J09zl8zGeNq"
+    },
+    {
+        "username": "sadfadsf",
+        "password": "$2y$10$00J6MaYYrn.4Xytz5FpPkuScWDOdowf4DQOwc580SYIvsnkGYBNlK"
+    },
+    {
+        "username": "asdfasd",
+        "password": "$2y$10$tAbAEWdIw1fiWQXV3ucMW.W.7qqWBrj9Zrfzy4.c9BrEKHpwYPO6G"
+    },
+    {
+        "username": "asdfasdf",
+        "password": "$2y$10$fjvVpOUwwDr92Abq3zD0c.WOU7a\/rNJhG4Uw5YcKH5.sHuijhEZLm"
+    },
+    {
+        "username": "sadfasdfsa",
+        "password": "$2y$10$JbW4HsAuWr1V.Er4DqFF3uvuOtw.sfUswDfn4nY8ZweDxNQEvmqaW"
+    },
+    {
+        "username": "sdfasdf",
+        "password": "$2y$10$Wum\/YNNRYAQa1.BOcPq6GONmN9yMw\/zJn8NDjtrf3AP6fn8ORS9da"
+    },
+    {
+        "username": "sdfas",
+        "password": "$2y$10$nGL2QtoTJYjkV5Tv4QUGM.f\/Sz6aZfAY2VjkgeG5i0fDWaW3rXInu"
+    },
+    {
+        "username": "matthewk318@gmail.com",
+        "password": "$2y$10$hjtnKPqwdZOlxX28SV\/IRuG\/EBTRLByGRc2x1bazEGCA0RnvfJDWO"
+    },
+    {
+        "username": "iqwpoeiqwpoejqwoknejqkw",
+        "password": "$2y$10$jFF08WS7K1\/WGSWL1SbC2.SamaA\/90\/YNwisA\/uewZrGGEh1Y\/tge"
+    },
+    {
+        "username": "Matthew",
+        "password": "$2y$10$g7YWCctX1mxbuZcqRg5oiOcoETyA\/9vO0X3tCxC9zcFak6fx9IkoG"
+    },
+    {
+        "username": "mmm",
+        "password": "$2y$10$LtCMizGxSzv6uDYjVkVvG.5DmHLNHn\/7FAdWQlutVCIzPUEgwq.yC"
+    },
+    {
+        "username": "mmmm",
+        "password": "$2y$10$GDrb6Dp1Zqq68X5gXAq3UeREOxWxEHIzlsLGVyxrGcaHL.lNhtxIu"
+    },
+    {
+        "username": "d",
+        "password": "$2y$10$KsnZRVccr\/gAm296uNFjyOSZQYD56WSEPB9G\/9ftjcKu8OwHXPIIi"
+    },
+    {
+        "username": "kn",
+        "password": "$2y$10$BXEs\/7GA92UvpNjlSgcROOKr.ExLww9lesjC7lw2keVIxSbAehEre"
+    },
+    {
+        "username": "weed",
+        "password": "$2y$10$6Q5UsqmMbrqc9JAxmoEGXuKpbq5FXUdj8wPBnJP8djzJUOEK4UZYS"
+    },
+    {
+        "username": "testingg",
+        "password": "$2y$10$Kc6JprKOPx5H2FFgXG5YhuCedkhlO5F5lv5vPhXynuE8tY9DaX\/nu"
+    }
+]

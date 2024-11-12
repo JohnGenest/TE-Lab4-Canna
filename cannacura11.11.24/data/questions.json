@@ -1,0 +1,103 @@
+{
+    "questions": [
+        {
+            "question": "What is your primary reason for using cannabis?",
+            "options": ["Relaxation", "Pain relief", "Creativity boost", "Improve sleep", "Social interaction", "Focus and productivity"],
+            "weight": 0.15,
+            "strain_weight1": [0.2,0.2,0.9,0.3,0.9,0.9],
+            "strain_weight2": [0.4,0.3,0.7,0.5,0.75,0.75],
+            "strain_weight3": [0.6,0.5,0.6,0.6,0.55,0.55],
+            "strain_weight4": [0.75,0.65,0.5,0.7,0.45,0.45],
+            "strain_weight5": [0.9,0.8,0.4,0.85,0.3,0.25]
+        },
+        {
+            "question": "What time of day do you plan to consume cannabis?",
+            "options": ["Morning", "Afternoon", "Evening", "Night"],
+            "weight": 0.1,
+            "strain_weight1": [0.9,0.7,0.5,0.4],
+            "strain_weight2": [0.7,0.8,0.6,0.5],
+            "strain_weight3": [0.5,0.6,0.65,0.6],
+            "strain_weight4": [0.4,0.5,0.7,0.75],
+            "strain_weight5": [0.2,0.4,0.75,0.9]
+        },
+        {
+            "question": "How experienced are you with cannabis?", 
+            "options": ["First time user", "Occasional user", "Regular user", "Daily User"],
+            "weight": 0.05,
+            "strain_weight1": [0.8,0.75,0.65,0.55],
+            "strain_weight2": [0.7,0.7,0.65,0.65],
+            "strain_weight3": [0.5,0.65,0.7,0.75],
+            "strain_weight4": [0.4,0.55,0.75,0.8],
+            "strain_weight5": [0.3,0.5,0.8,0.85]
+        },
+        {            "question": "What intensity of effects are you seeking?",
+            "options": ["Very mild", "Mild", "Moderate", "Strong", "Very Strong"],
+            "weight": 0.15,
+            "strain_weight1": [0.8,0.7,0.6,0.5,0.4],
+            "strain_weight2": [0.75,0.7,0.65,0.6,0.5],
+            "strain_weight3": [0.5,0.55,0.6,0.65,0.7],
+            "strain_weight4": [0.4,0.5,0.65,0.75,0.8],
+            "strain_weight5": [0.35,0.45,0.6,0.8,0.9]
+        },
+        {
+            "question": "Which method of consumption do you prefer?",
+            "options": ["Smoking", "Vaping", "Edibles", "Oils/Tinctures", "Topicals"],
+            "weight": 0.1,
+            "strain_weight1": [0.9,0.7,0.5,0.3,0.9,0.3],
+            "strain_weight2": [0.8,0.75,0.6,0.4,0.8,0.4],
+            "strain_weight3": [0.7,0.7,0.65,0.5,0.7,0.5],
+            "strain_weight4": [0.7,0.65,0.7,0.6,0.7,0.6],
+            "strain_weight5": [0.9,0.6,0.75,0.7,0.6,0.7]
+        },
+        {
+            "question": "Do you prefer the cannabis strain to be:",
+            "options": ["Sativa-dominant (energizing, uplifting)", "Indica-dominant (relaxing, calming)", "Hybrid (balanced effects)"],
+            "weight": 0.05,
+            "strain_weight1": [0.9,0.3,0.5,0.5],
+            "strain_weight2": [0.65,0.45,0.9,0.5],
+            "strain_weight3": [0.5,0.65,0.8,0.5],
+            "strain_weight4": [0.4,0.8,0.65,0.5],
+            "strain_weight5": [0.3,0.9,0.55,0.5]
+        },
+        {
+            "question": "What type of flavor or aroma do you prefer?",
+            "options": ["Earthy", "Citrus/Fruity", "Sweet", "Spicy/Herbal", "Pungent/Skunky"],
+            "weight": 0.05,
+            "strain_weight1": [0.4,0.9,0.8,0.3,0.2,0.5],
+            "strain_weight2": [0.3,0.8,0.9,0.4,0.3,0.5],
+            "strain_weight3": [0.5,0.6,0.7,0.5,0.6,0.5],
+            "strain_weight4": [0.7,0.4,0.5,0.6,0.8,0.5],
+            "strain_weight5": [0.8,0.5,0.6,0.7,0.9,0.5]
+        },
+        {
+            "question": "Do you have a specific condition you would like cannabis to help with?",
+            "options": ["Anxiety", "Chronic pain", "Insomnia", "Depression", "Lack of appetite", "None"],
+            "weight": 0.15,
+            "strain_weight1": [0.7,0.4,0.3,0.9,0.4,0.5],
+            "strain_weight2": [0.65,0.5,0.5,0.8,0.5,0.5],
+            "strain_weight3": [0.6,0.9,0.7,0.7,0.6,0.5],
+            "strain_weight4": [0.5,0.8,0.5,0.6,0.7,0.5],
+            "strain_weight5": [0.4,0.9,0.8,0.5,0.8,0.5]
+        },
+        {
+            "question": "How important is it for the strain to have a high THC content?",
+            "options": ["Not important", "Somewhat important", "Very important"],
+            "weight": 0.1,
+            "strain_weight1": [0.9,0.5,0.3],
+            "strain_weight2": [0.5,0.8,0.9],
+            "strain_weight3": [0.6,0.7,0.8],
+            "strain_weight4": [0.8,0.6,0.4],
+            "strain_weight5": [0.6,0.7,0.8]
+        },
+        {
+            "question": "Do you want a strain with high CBD content?",
+            "options": ["Yes", "No", "Does not matter"],
+            "weight": 0.1,
+            "strain_weight1": [0.3,0.8,0.5],
+            "strain_weight2": [0.35,0.7,0.5],
+            "strain_weight3": [0.45,0.6,0.5],
+            "strain_weight4": [0.65,0.5,0.5],
+            "strain_weight5": [0.8,0.4,0.5]
+        }
+    ]
+}
